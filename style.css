@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #EFD5A4
+  }
+
+#maze-container {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #999;
+  background-color: #EFEEE7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.wall {
+  background-color: #D05E6B;
+}
+#select{
+    display: flex;
+  font-size: 1.5rem;
+  background-color: #D05E6B;
+  border-radius: 1rem;
+  border-width: 0.3rem;
+  border-color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 200px;
+   margin: 0 auto;
+   align-items: center; 
+    justify-content: center;
+    margin-bottom: 2rem;
+
+}
